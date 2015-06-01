@@ -1,0 +1,38 @@
+[27-Nov-2014 10:03:08 UTC] PHP Warning:  require(/home/lipogen3ddd/public_html/wp-includes/load.php): failed to open stream: No such file or directory in /home/lipogen3ddd/public_html/wp-settings.php on line 21
+[27-Nov-2014 10:03:08 UTC] PHP Fatal error:  require(): Failed opening required '/home/lipogen3ddd/public_html/wp-includes/load.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/lipogen3ddd/public_html/wp-settings.php on line 21
+[27-Nov-2014 10:04:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/lipogen3ddd/public_html/wp-content/plugins/3door-greatfalls-export/great_falls.php on line 207
+[27-Nov-2014 10:04:10 UTC] PHP Fatal error:  Class 'gnupg' not found in /home/lipogen3ddd/public_html/wp-content/plugins/3door-greatfalls-export/great_falls.php on line 139
+[27-Nov-2014 10:07:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/lipogen3ddd/public_html/wp-content/plugins/3door-greatfalls-export/great_falls.php on line 207
+[27-Nov-2014 10:07:42 UTC] PHP Fatal error:  Class 'gnupg' not found in /home/lipogen3ddd/public_html/wp-content/plugins/3door-greatfalls-export/great_falls.php on line 139
+[27-Nov-2014 10:07:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/lipogen3ddd/public_html/wp-content/plugins/3door-greatfalls-export/great_falls.php on line 207
+[27-Nov-2014 10:07:44 UTC] PHP Fatal error:  Class 'gnupg' not found in /home/lipogen3ddd/public_html/wp-content/plugins/3door-greatfalls-export/great_falls.php on line 139
+[27-Nov-2014 10:08:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/lipogen3ddd/public_html/wp-content/plugins/3door-greatfalls-export/great_falls.php on line 207
+[27-Nov-2014 10:08:56 UTC] PHP Warning:  gnupg::addencryptkey(): get_key failed in /home/lipogen3ddd/public_html/wp-content/plugins/3door-greatfalls-export/great_falls.php on line 142
+[27-Nov-2014 10:08:56 UTC] PHP Warning:  gnupg::encrypt(): no key for encryption set in /home/lipogen3ddd/public_html/wp-content/plugins/3door-greatfalls-export/great_falls.php on line 145
+[27-Nov-2014 10:09:08 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Could not upload file. cURL Error: [10] - ' in /home/lipogen3ddd/public_html/wp-content/plugins/3door-greatfalls-export/great_falls.php:183
+Stack trace:
+#0 /home/lipogen3ddd/public_html/wp-content/plugins/3door-greatfalls-export/great_falls.php(225): FTP_Implicit_SSL->upload('2014-11-27-lipo...', '/home/lipogen3d...')
+#1 {main}
+  thrown in /home/lipogen3ddd/public_html/wp-content/plugins/3door-greatfalls-export/great_falls.php on line 183
+[27-Nov-2014 10:09:22 UTC] PHP Warning:  gnupg::addencryptkey(): get_key failed in /home/lipogen3ddd/public_html/wp-content/plugins/3door-greatfalls-export/great_falls.php on line 142
+[27-Nov-2014 10:09:22 UTC] PHP Warning:  gnupg::encrypt(): no key for encryption set in /home/lipogen3ddd/public_html/wp-content/plugins/3door-greatfalls-export/great_falls.php on line 145
+[27-Nov-2014 10:09:35 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Could not upload file. cURL Error: [10] - ' in /home/lipogen3ddd/public_html/wp-content/plugins/3door-greatfalls-export/great_falls.php:183
+Stack trace:
+#0 /home/lipogen3ddd/public_html/wp-content/plugins/3door-greatfalls-export/great_falls.php(225): FTP_Implicit_SSL->upload('2014-11-27-lipo...', '/home/lipogen3d...')
+#1 {main}
+  thrown in /home/lipogen3ddd/public_html/wp-content/plugins/3door-greatfalls-export/great_falls.php on line 183
+[27-Nov-2014 10:09:42 UTC] PHP Warning:  gnupg::addencryptkey(): get_key failed in /home/lipogen3ddd/public_html/wp-content/plugins/3door-greatfalls-export/great_falls.php on line 142
+[27-Nov-2014 10:09:42 UTC] PHP Warning:  gnupg::encrypt(): no key for encryption set in /home/lipogen3ddd/public_html/wp-content/plugins/3door-greatfalls-export/great_falls.php on line 145
+[27-Nov-2014 10:09:55 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Could not upload file. cURL Error: [10] - ' in /home/lipogen3ddd/public_html/wp-content/plugins/3door-greatfalls-export/great_falls.php:183
+Stack trace:
+#0 /home/lipogen3ddd/public_html/wp-content/plugins/3door-greatfalls-export/great_falls.php(225): FTP_Implicit_SSL->upload('2014-11-27-lipo...', '/home/lipogen3d...')
+#1 {main}
+  thrown in /home/lipogen3ddd/public_html/wp-content/plugins/3door-greatfalls-export/great_falls.php on line 183
+[27-Nov-2014 10:13:19 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Could not upload file. cURL Error: [10] - ' in /home/lipogen3ddd/public_html/wp-content/plugins/3door-greatfalls-export/great_falls.php:183
+Stack trace:
+#0 /home/lipogen3ddd/public_html/wp-content/plugins/3door-greatfalls-export/great_falls.php(225): FTP_Implicit_SSL->upload('2014-11-27-lipo...', '/home/lipogen3d...')
+#1 {main}
+  thrown in /home/lipogen3ddd/public_html/wp-content/plugins/3door-greatfalls-export/great_falls.php on line 183
+[27-Nov-2014 10:34:28 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, null given in /home/lipogen3ddd/public_html/wp-content/plugins/3door-greatfalls-export/3door-greatfalls-export.php on line 210
+[27-Nov-2014 10:35:20 UTC] PHP Warning:  fwrite() expects parameter 2 to be string, resource given in /home/lipogen3ddd/public_html/wp-content/plugins/3door-greatfalls-export/great_falls.php on line 172
+[03-Dec-2014 15:13:50 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/lipogen3ddd/public_html/wp-content/plugins/3door-greatfalls-export/3door-greatfalls-export.php on line 16
