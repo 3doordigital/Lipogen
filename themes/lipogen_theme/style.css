@@ -8,7 +8,6 @@ Version: 1.0
 License: Copyright 2014
 */
 
-@charset "utf-8";
 input {
     outline: 0;
 }
@@ -35,7 +34,6 @@ h2 {
     text-align: left;
     text-transform: uppercase;
     font-weight: 700;
-    color: #1d1761;
     font-family: 'Open Sans', sans-serif;
     color: #1d1761;
 }
@@ -76,6 +74,9 @@ p, #content li {
     font-family: 'Open Sans', sans-serif;
     line-height: 1.9em;
     margin: 0 0 15px;
+}
+#content .alert li {
+	list-style-type: none;
 }
 #content {
     margin-top: 15px;
@@ -1101,7 +1102,6 @@ input[type=number]::-webkit-outer-spin-button {
 .product-quantity button,
 .product-quantity .btn-default:hover {
     color: #000;
-    text-transform: none;
     font-size: 13px;
     text-transform: uppercase;
 }

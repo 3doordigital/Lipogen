@@ -209,13 +209,14 @@ function woocommerce_tech_authoaim_init() {
            global $woocommerce;
 
            if (!$this->isCreditCardNumber($_POST['aim_credircard'])) 
-               $woocommerce->add_error(__('(Credit Card Number) is not valid.', 'wc-tech-authoaim')); 
-
+               //$woocommerce->add_error(__('(Credit Card Number) is not valid.', 'wc-tech-authoaim')); 
+			   wc_add_notice( '(Credit Card Number) is not valid.', 'error' );
 
            
 
            if (!$this->isCCVNumber($_POST['aim_ccvnumber'])) 
-               $woocommerce->add_error(__('(Card Verification Number) is not valid.', 'wc-tech-authoaim')); 
+               //$woocommerce->add_error(__('(Card Verification Number) is not valid.', 'wc-tech-authoaim')); 
+			   wc_add_notice( '(Card Verification Number) is not valid.', 'error' );
       }
       
       /*
@@ -345,7 +346,8 @@ function woocommerce_tech_authoaim_init() {
             else{
             
                 $order->add_order_note($this->failed_message .$response_array[3] );
-                $woocommerce->add_error(__('(Transaction Error) '. $response_array[3].' :: '.print_r($params, true) , 'wc-tech-authoaim'));
+                //$woocommerce->add_error(__('(Transaction Error) '. $response_array[3].' :: '.print_r($params, true) , 'wc-tech-authoaim'));
+				wc_add_notice( '(Transaction Error) '. $response_array[3], 'error' );
             }
         }
         else {
@@ -354,6 +356,7 @@ function woocommerce_tech_authoaim_init() {
             $order->update_status('failed');
             
             $woocommerce->add_error(__('(Transaction Error) Error processing payment.', 'wc-tech-authoaim')); 
+			wc_add_notice( '(Transaction Error) Error processing payment.', 'error' );
         }
          
          
